@@ -1,4 +1,4 @@
-# 🎸 Guitar Hero for Minix — Low-Level Rhythm Game in C
+# Guitar Hero for Minix — Low-Level Rhythm Game in C
 
 ![C](https://img.shields.io/badge/C-00599C?logo=c&logoColor=white) ![Minix](https://img.shields.io/badge/OS-Minix%203-555) ![Grade](https://img.shields.io/badge/Grade-20%2F20-brightgreen)
 
@@ -8,7 +8,7 @@ A rhythm game inspired by *Guitar Hero*, built **from scratch in C on the Minix 
 
 <p align="center"><img src="Project/devices/video/assets/gameplay1.png" width="600" alt="Stage artwork used in the game"/></p>
 
-## ✨ Features
+## Features
 - Main menu, song selection and username entry, navigated with the **mouse**
 - Notes fall along **five lanes**, hit with the **A S D F G** keys
 - **Dynamic beatmap loading** from text files, so new songs can be added without recompiling
@@ -17,7 +17,7 @@ A rhythm game inspired by *Guitar Hero*, built **from scratch in C on the Minix 
 - **Persistent Top-5 leaderboard**, saved to disk
 - **Audio through the serial port (UART)**: the game sends events to an external Python script that plays the music
 
-## 🔧 Hardware & low-level programming
+## Hardware & low-level programming
 Each device has its own driver, built during the course labs and integrated into the final project:
 
 | Device | Usage in the game |
@@ -31,7 +31,7 @@ Each device has its own driver, built during the course labs and integrated into
 
 All devices are handled through **interrupts**, in a single **event-driven main loop**.
 
-## ▶️ How to run (Minix VM)
+## ▶ How to run (Minix VM)
 ```bash
 cd Project
 make
@@ -39,13 +39,13 @@ lcom_run proj
 ```
 Audio setup is described in [`Project/SETUP_AUDIO.md`](Project/SETUP_AUDIO.md).
 
-## 👤 My contribution
+## My contribution
 - Main game loop and integration of the devices in `main.c`
 - **Video driver** (`devices/video`): graphics mode and image rendering
 - UI and visual design: menus, loading screen, Mission Success/Failed screens, transparent leaderboard and crowd particle effects
 - Gameplay: missed notes keep falling to the bottom of the screen
 
-## 👥 Team
+## Team
 André Rocha · Guilherme Pinho · Martim Ferreira · Artur Ferro
 
-📄 Original documentation (Portuguese): [README_PT.md](README_PT.md)
+ Original documentation (Portuguese): [README_PT.md](README_PT.md)
