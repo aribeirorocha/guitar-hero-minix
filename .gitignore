@@ -41,3 +41,10 @@ Project/scores.txt
 scores.txt
 /tmp/
 lab1/.minix-src/
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+core.*
+*.o
