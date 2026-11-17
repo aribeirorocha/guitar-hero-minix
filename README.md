@@ -6,7 +6,7 @@ A rhythm game inspired by *Guitar Hero*, built **from scratch in C on the Minix 
 
 > Final project for **Computer Laboratory (LCOM)** — BSc in Informatics and Computing Engineering (L.EIC), FEUP, 2025/2026. **Final grade: 20/20.**
 
-<p align="center"><img src="Project/devices/video/assets/gameplay1.png" width="600" alt="Stage artwork used in the game"/></p>
+<p align="center"><img src="docs/screenshot-menu.png" width="600" alt="FEUPHERO main menu running on Minix"/></p>
 
 ## Features
 - Main menu, song selection and username entry, navigated with the **mouse**
